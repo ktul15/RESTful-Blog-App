@@ -1,0 +1,27 @@
+{
+  "name": "restful-blog-app",
+  "version": "1.0.0",
+  "description": "A blog app to learn RESTful Routes from colt steele's web developer bootcaml.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktul15/RESTful-Blog-App.git"
+  },
+  "author": "ketul makwana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktul15/RESTful-Blog-App/issues"
+  },
+  "homepage": "https://github.com/ktul15/RESTful-Blog-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.0"
+  }
+}
